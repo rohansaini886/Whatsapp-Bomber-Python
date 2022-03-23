@@ -3,11 +3,14 @@ import pyautogui as pt
 import time
 
 print("____START____")
-time.sleep(5)
+print("Now open Whatsapp web and Click on person to send message")
+time.sleep(30)
+msg = input("Enter Your message :- ")
+run = int(input("Enter How many times you want to message :- :)
 counter = 1
-
-for i in range(100):
-    pt.write("Chola")
+print("Now Just Sit Back")
+for i in range(run):
+    pt.write(msg)
     time.sleep(0.05)
     pt.press("Enter")
     counter += 1
